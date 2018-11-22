@@ -19,8 +19,13 @@ def check_browser_open(browser):
     socket.error):
         return(False)
 
+outputName = ''
+def output_namer():
+    global outputName
+    outputName = str(input('Enter a name for the save file\n> '))
+
+
 def session_saver(observer):
-    outputName = str(input('Enter a name for the save file\n> '))    
     with open(outputName, 'a') as fh:
         json.dump(observer,fh)
 
@@ -32,7 +37,6 @@ def is_open(browser):
 
 
 def waiter(browser,observer):
-    test_dict = {'testval1': 1, 'testval2':2}
     test_dict = observer
     browserIsOpen = is_open(browser)
     print(browserIsOpen)

@@ -8,6 +8,9 @@ import socket
 
 # Code
 
+## Enter output file name
+output_namer()
+
 # Open browser and type google.com
 browser = webdriver.Firefox()
 browser.get('https://www.google.com')
