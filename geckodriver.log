@@ -24962,3 +24962,712 @@ console.error: BroadcastService:
 1542912437256	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
 1542912437257	Marionette	INFO	Stopped listening on port 38179
 1542912437258	Marionette	DEBUG	Remote service is inactive
+1542914860261	geckodriver	INFO	geckodriver 0.21.0
+1542914860266	geckodriver	INFO	Listening on 127.0.0.1:39101
+1542914861280	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3uZeDwao2eKK"
+1542914861712	Marionette	DEBUG	Received observer notification profile-after-change
+1542914861786	Marionette	DEBUG	Received observer notification command-line-startup
+1542914861786	Marionette	DEBUG	Received observer notification nsPref:changed
+1542914861786	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+
+(firefox:14450): Gtk-WARNING **: 14:27:41.819: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:14450): Gtk-WARNING **: 14:27:41.819: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542914861984	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1542914862666	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1542914862667	Marionette	DEBUG	Waiting for delayed startup...
+1542914862781	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1542914862781	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1542914862782	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1542914862783	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1542914862784	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1542914862784	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1542914862785	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1542914862786	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1542914862787	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1542914862787	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1542914862787	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1542914862787	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1542914862788	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1542914862788	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1542914862788	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1542914862789	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1542914862789	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1542914862789	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1542914862790	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1542914862790	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1542914862790	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1542914862790	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1542914862790	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1542914862790	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1542914862790	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1542914862790	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1542914862827	Marionette	INFO	Listening on port 35299
+1542914862827	Marionette	DEBUG	Remote service is active
+1542914862891	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:58820
+1542914862896	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1542914862896	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542914862934	Marionette	DEBUG	[4294967297] Frame script loaded
+1542914862936	Marionette	DEBUG	[4294967297] Frame script registered
+1542914862940	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"943adad5-c3d8-4b25-bf92-c2b1bdd6235d","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1542914862944	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.google.com"}]
+1542914862973	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1542914863248	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1542914863344	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.google.com/
+1542914863700	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1542914863843	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.google.com/
+1542914863844	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1542914863846	Marionette	TRACE	0 -> [0,3,"WebDriver:GetCurrentURL",{}]
+1542914863847	Marionette	TRACE	0 <- [1,3,null,{"value":"https://www.google.com/"}]
+1542914863848	Marionette	TRACE	0 -> [0,4,"WebDriver:GetCurrentURL",{}]
+1542914863849	Marionette	TRACE	0 <- [1,4,null,{"value":"https://www.google.com/"}]
+1542914863852	Marionette	TRACE	0 -> [0,5,"WebDriver:GetCurrentURL",{}]
+1542914863852	Marionette	TRACE	0 <- [1,5,null,{"value":"https://www.google.com/"}]
+1542914863858	Marionette	TRACE	0 -> [0,6,"WebDriver:GetCurrentURL",{}]
+1542914863858	Marionette	TRACE	0 <- [1,6,null,{"value":"https://www.google.com/"}]
+1542914863861	Marionette	TRACE	0 -> [0,7,"WebDriver:GetCurrentURL",{}]
+1542914863862	Marionette	TRACE	0 <- [1,7,null,{"value":"https://www.google.com/"}]
+1542914863863	Marionette	TRACE	0 -> [0,8,"WebDriver:GetCurrentURL",{}]
+1542914863864	Marionette	TRACE	0 <- [1,8,null,{"value":"https://www.google.com/"}]
+1542914864368	Marionette	TRACE	0 -> [0,9,"WebDriver:GetCurrentURL",{}]
+1542914864369	Marionette	TRACE	0 <- [1,9,null,{"value":"https://www.google.com/"}]
+1542914864875	Marionette	TRACE	0 -> [0,10,"WebDriver:GetCurrentURL",{}]
+1542914864876	Marionette	TRACE	0 <- [1,10,null,{"value":"https://www.google.com/"}]
+1542914865386	Marionette	TRACE	0 -> [0,11,"WebDriver:GetCurrentURL",{}]
+1542914865389	Marionette	TRACE	0 <- [1,11,null,{"value":"https://www.google.com/"}]
+1542914865895	Marionette	TRACE	0 -> [0,12,"WebDriver:GetCurrentURL",{}]
+1542914865897	Marionette	TRACE	0 <- [1,12,null,{"value":"https://www.google.com/"}]
+1542914866403	Marionette	TRACE	0 -> [0,13,"WebDriver:GetCurrentURL",{}]
+1542914866405	Marionette	TRACE	0 <- [1,13,null,{"value":"https://www.google.com/"}]
+1542914866911	Marionette	TRACE	0 -> [0,14,"WebDriver:GetCurrentURL",{}]
+1542914866912	Marionette	TRACE	0 <- [1,14,null,{"value":"https://www.google.com/"}]
+1542914867418	Marionette	TRACE	0 -> [0,15,"WebDriver:GetCurrentURL",{}]
+1542914867419	Marionette	TRACE	0 <- [1,15,null,{"value":"https://www.google.com/"}]
+1542914867924	Marionette	TRACE	0 -> [0,16,"WebDriver:GetCurrentURL",{}]
+1542914867925	Marionette	TRACE	0 <- [1,16,null,{"value":"https://www.google.com/"}]
+1542914868431	Marionette	TRACE	0 -> [0,17,"WebDriver:GetCurrentURL",{}]
+1542914868432	Marionette	TRACE	0 <- [1,17,null,{"value":"https://www.google.com/"}]
+1542914868937	Marionette	TRACE	0 -> [0,18,"WebDriver:GetCurrentURL",{}]
+1542914868939	Marionette	TRACE	0 <- [1,18,null,{"value":"https://www.google.com/"}]
+1542914869444	Marionette	TRACE	0 -> [0,19,"WebDriver:GetCurrentURL",{}]
+1542914869446	Marionette	TRACE	0 <- [1,19,null,{"value":"https://www.google.com/"}]
+1542914869951	Marionette	TRACE	0 -> [0,20,"WebDriver:GetCurrentURL",{}]
+1542914869952	Marionette	TRACE	0 <- [1,20,null,{"value":"https://www.google.com/"}]
+1542914870479	Marionette	TRACE	0 -> [0,21,"WebDriver:GetCurrentURL",{}]
+1542914870480	Marionette	TRACE	0 <- [1,21,null,{"value":"https://www.google.com/"}]
+1542914870990	Marionette	TRACE	0 -> [0,22,"WebDriver:GetCurrentURL",{}]
+1542914870991	Marionette	TRACE	0 <- [1,22,null,{"value":"https://www.google.com/"}]
+1542914871497	Marionette	TRACE	0 -> [0,23,"WebDriver:GetCurrentURL",{}]
+1542914871500	Marionette	TRACE	0 <- [1,23,null,{"value":"https://www.google.com/"}]
+1542914872006	Marionette	TRACE	0 -> [0,24,"WebDriver:GetCurrentURL",{}]
+1542914872008	Marionette	TRACE	0 <- [1,24,null,{"value":"https://www.google.com/"}]
+1542914872516	Marionette	TRACE	0 -> [0,25,"WebDriver:GetCurrentURL",{}]
+1542914872518	Marionette	TRACE	0 <- [1,25,null,{"value":"https://www.google.com/"}]
+1542914873027	Marionette	TRACE	0 -> [0,26,"WebDriver:GetCurrentURL",{}]
+1542914873030	Marionette	TRACE	0 <- [1,26,null,{"value":"https://www.google.com/"}]
+1542914873537	Marionette	TRACE	0 -> [0,27,"WebDriver:GetCurrentURL",{}]
+1542914873539	Marionette	TRACE	0 <- [1,27,null,{"value":"https://www.google.com/"}]
+1542914874047	Marionette	TRACE	0 -> [0,28,"WebDriver:GetCurrentURL",{}]
+1542914874049	Marionette	TRACE	0 <- [1,28,null,{"value":"https://www.google.com/"}]
+1542914874556	Marionette	TRACE	0 -> [0,29,"WebDriver:GetCurrentURL",{}]
+1542914874558	Marionette	TRACE	0 <- [1,29,null,{"value":"https://www.google.com/"}]
+1542914875063	Marionette	TRACE	0 -> [0,30,"WebDriver:GetCurrentURL",{}]
+1542914875064	Marionette	TRACE	0 <- [1,30,null,{"value":"https://www.google.com/"}]
+1542914875570	Marionette	TRACE	0 -> [0,31,"WebDriver:GetCurrentURL",{}]
+1542914875572	Marionette	TRACE	0 <- [1,31,null,{"value":"https://www.google.com/"}]
+1542914876083	Marionette	TRACE	0 -> [0,32,"WebDriver:GetCurrentURL",{}]
+1542914876086	Marionette	TRACE	0 <- [1,32,null,{"value":"https://www.google.com/"}]
+1542914876591	Marionette	TRACE	0 -> [0,33,"WebDriver:GetCurrentURL",{}]
+1542914876592	Marionette	TRACE	0 <- [1,33,null,{"value":"https://www.google.com/"}]
+1542914877097	Marionette	TRACE	0 -> [0,34,"WebDriver:GetCurrentURL",{}]
+1542914877099	Marionette	TRACE	0 <- [1,34,null,{"value":"https://www.google.com/"}]
+1542914877602	Marionette	TRACE	0 -> [0,35,"WebDriver:GetCurrentURL",{}]
+1542914877603	Marionette	TRACE	0 <- [1,35,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914878608	Marionette	TRACE	0 -> [0,36,"WebDriver:GetPageSource",{}]
+1542914878638	Marionette	TRACE	0 <- [1,36,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... =1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\" gapi_processed=\"true\"></script></body></html>"}]
+1542914878662	Marionette	TRACE	0 -> [0,37,"WebDriver:GetCurrentURL",{}]
+1542914878662	Marionette	TRACE	0 <- [1,37,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914878665	Marionette	TRACE	0 -> [0,38,"WebDriver:GetPageSource",{}]
+1542914878676	Marionette	TRACE	0 <- [1,38,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... =1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\" gapi_processed=\"true\"></script></body></html>"}]
+1542914878777	Marionette	TRACE	0 -> [0,39,"WebDriver:GetCurrentURL",{}]
+1542914878779	Marionette	TRACE	0 <- [1,39,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914878781	Marionette	TRACE	0 -> [0,40,"WebDriver:GetCurrentURL",{}]
+1542914878782	Marionette	TRACE	0 <- [1,40,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914878784	Marionette	TRACE	0 -> [0,41,"WebDriver:GetCurrentURL",{}]
+1542914878785	Marionette	TRACE	0 <- [1,41,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914878787	Marionette	TRACE	0 -> [0,42,"WebDriver:GetCurrentURL",{}]
+1542914878787	Marionette	TRACE	0 <- [1,42,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914878788	Marionette	TRACE	0 -> [0,43,"WebDriver:GetCurrentURL",{}]
+1542914878789	Marionette	TRACE	0 <- [1,43,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914879293	Marionette	TRACE	0 -> [0,44,"WebDriver:GetCurrentURL",{}]
+1542914879293	Marionette	TRACE	0 <- [1,44,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914879798	Marionette	TRACE	0 -> [0,45,"WebDriver:GetCurrentURL",{}]
+1542914879799	Marionette	TRACE	0 <- [1,45,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914880303	Marionette	TRACE	0 -> [0,46,"WebDriver:GetCurrentURL",{}]
+1542914880304	Marionette	TRACE	0 <- [1,46,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914880808	Marionette	TRACE	0 -> [0,47,"WebDriver:GetCurrentURL",{}]
+1542914880809	Marionette	TRACE	0 <- [1,47,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914880820	Marionette	TRACE	0 -> [0,48,"WebDriver:GetCurrentURL",{}]
+1542914880821	Marionette	TRACE	0 <- [1,48,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914880836	Marionette	TRACE	0 -> [0,49,"WebDriver:GetCurrentURL",{}]
+1542914880838	Marionette	TRACE	0 <- [1,49,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914880847	Marionette	TRACE	0 -> [0,50,"WebDriver:GetCurrentURL",{}]
+1542914880848	Marionette	TRACE	0 <- [1,50,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914881862	Marionette	TRACE	0 -> [0,51,"WebDriver:GetPageSource",{}]
+1542914881925	Marionette	TRACE	0 <- [1,51,null,{"value":"<html class=\"ua-gecko ua-gecko-63 ua-gecko-63-0 ua-firefox ua-firefox-63 ua-firefox-63-0 ua-desktop ua- ... ><tbody><tr><td class=\"gssb_f\"></td><td class=\"gssb_e\" style=\"width: 100%;\"></td></tr></tbody></table></body></html>"}]
+1542914881945	Marionette	TRACE	0 -> [0,52,"WebDriver:GetCurrentURL",{}]
+1542914881946	Marionette	TRACE	0 <- [1,52,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914881949	Marionette	TRACE	0 -> [0,53,"WebDriver:GetCurrentURL",{}]
+1542914881949	Marionette	TRACE	0 <- [1,53,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914881951	Marionette	TRACE	0 -> [0,54,"WebDriver:GetCurrentURL",{}]
+1542914881952	Marionette	TRACE	0 <- [1,54,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914881953	Marionette	TRACE	0 -> [0,55,"WebDriver:GetCurrentURL",{}]
+1542914881954	Marionette	TRACE	0 <- [1,55,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914881956	Marionette	TRACE	0 -> [0,56,"WebDriver:GetCurrentURL",{}]
+1542914881957	Marionette	TRACE	0 <- [1,56,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914881959	Marionette	TRACE	0 -> [0,57,"WebDriver:GetCurrentURL",{}]
+1542914881960	Marionette	TRACE	0 <- [1,57,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914881964	Marionette	TRACE	0 -> [0,58,"WebDriver:GetCurrentURL",{}]
+1542914881965	Marionette	TRACE	0 <- [1,58,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914881969	Marionette	TRACE	0 -> [0,59,"WebDriver:GetCurrentURL",{}]
+1542914881970	Marionette	TRACE	0 <- [1,59,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914882472	Marionette	TRACE	0 -> [0,60,"WebDriver:GetCurrentURL",{}]
+1542914882472	Marionette	TRACE	0 <- [1,60,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+1542914883600	Marionette	TRACE	0 -> [0,61,"WebDriver:GetCurrentURL",{}]
+1542914883601	Marionette	TRACE	0 <- [1,61,null,{"value":"http://www.eatbydate.com/other/spice-menu/how-long-does-cinnamon-last-shelf-life-expiration-date/"}]
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-8222024904512683&output=html&h=600&slotname=8951130954&adk=868025941&adf=3977149387&w=160&lmt=1542908498&rafmt=12&guci=2.2.0.0.2.2.0.0&format=160x600&url=http%3A%2F%2Fwww.eatbydate.com%2Fother%2Fspice-menu%2Fhow-long-does-cinnamon-last-shelf-life-expiration-date%2F&flash=0&wgl=1&adsid=NT&dt=1542914881528&bpp=5&bdt=889&fdt=595&idt=416&shv=r20181107&cbv=r20180604&saldr=aa&abxe=1&prev_fmts=336x280%2C728x90%2C728x90%2C336x280&correlator=7084518838489&frm=20&pv=1&ga_vid=600712179.1542914882&ga_sid=1542914882&ga_hid=328196673&ga_fc=0&icsg=141476289326079&dssz=40&mdo=0&mso=0&u_tz=-300&u_his=3&u_java=0&u_h=1080&u_w=1920&u_ah=1053&u_aw=1853&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=915&bih=979&scr_x=0&scr_y=0&eid=10573697%2C21060853&oid=3&ref=https%3A%2F%2Fwww.google.com%2F&rx=0&eae=0&fc=656&brdim=%2C%2C993%2C27%2C1853%2C27%2C927%2C1053%2C927%2C979&vis=1&rsz=%7C%7CenEr%7C&abl=CS&ppjl=f&pfx=0&fu=272&bc=13&ifi=5&uci=5.7ji305xn6bh&xpc=3MedNaSB0U&p=http%3A//www.eatbydate.com&dtd=601, line 1: ReferenceError: osdlfm is not defined
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-8222024904512683&output=html&h=90&slotname=9132994553&adk=2464617598&adf=2372971234&w=728&lmt=1542908498&rafmt=12&guci=2.2.0.0.2.2.0.0&format=728x90&url=http%3A%2F%2Fwww.eatbydate.com%2Fother%2Fspice-menu%2Fhow-long-does-cinnamon-last-shelf-life-expiration-date%2F&flash=0&wgl=1&adsid=NT&dt=1542914881519&bpp=4&bdt=880&fdt=525&idt=425&shv=r20181107&cbv=r20180604&saldr=aa&abxe=1&prev_fmts=336x280%2C728x90&correlator=7084518838489&frm=20&pv=1&ga_vid=600712179.1542914882&ga_sid=1542914882&ga_hid=328196673&ga_fc=0&icsg=141476289326079&dssz=40&mdo=0&mso=0&u_tz=-300&u_his=3&u_java=0&u_h=1080&u_w=1920&u_ah=1053&u_aw=1853&u_cd=24&u_nplug=0&u_nmime=0&adx=94&ady=1252&biw=915&bih=979&scr_x=0&scr_y=0&eid=10573697%2C21060853&oid=3&ref=https%3A%2F%2Fwww.google.com%2F&rx=0&eae=0&fc=656&brdim=%2C%2C993%2C27%2C1853%2C27%2C927%2C1053%2C927%2C979&vis=1&rsz=%7C%7CeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=272&bc=13&ifi=3&uci=3.vq4523kjcy4v&xpc=AKr26gzdu6&p=http%3A//www.eatbydate.com&dtd=536, line 1: ReferenceError: buildAttribution is not defined
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-8222024904512683&output=html&h=280&slotname=6039927357&adk=449597474&adf=2151607536&w=336&lmt=1542908498&rafmt=12&guci=2.2.0.0.2.2.0.0&format=336x280&url=http%3A%2F%2Fwww.eatbydate.com%2Fother%2Fspice-menu%2Fhow-long-does-cinnamon-last-shelf-life-expiration-date%2F&flash=0&wgl=1&adsid=NT&dt=1542914881523&bpp=5&bdt=884&fdt=551&idt=421&shv=r20181107&cbv=r20180604&saldr=aa&abxe=1&prev_fmts=336x280%2C728x90%2C728x90&correlator=7084518838489&frm=20&pv=1&ga_vid=600712179.1542914882&ga_sid=1542914882&ga_hid=328196673&ga_fc=0&icsg=141476289326079&dssz=40&mdo=0&mso=0&u_tz=-300&u_his=3&u_java=0&u_h=1080&u_w=1920&u_ah=1053&u_aw=1853&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=915&bih=979&scr_x=0&scr_y=0&eid=10573697%2C21060853&oid=3&ref=https%3A%2F%2Fwww.google.com%2F&rx=0&eae=0&fc=656&brdim=%2C%2C993%2C27%2C1853%2C27%2C927%2C1053%2C927%2C979&vis=1&rsz=%7C%7CenEr%7C&abl=CS&ppjl=f&pfx=0&fu=272&bc=13&ifi=4&uci=4.ocq8posapa41&xpc=Ewfm6YI1dN&p=http%3A//www.eatbydate.com&dtd=557, line 6: ReferenceError: osdlfm is not defined
+1542914884760	Marionette	TRACE	0 -> [0,62,"WebDriver:GetCurrentURL",{}]
+1542914884761	Marionette	TRACE	0 <- [1,62,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914884764	Marionette	TRACE	0 -> [0,63,"WebDriver:GetCurrentURL",{}]
+1542914884764	Marionette	TRACE	0 <- [1,63,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914884768	Marionette	TRACE	0 -> [0,64,"WebDriver:GetCurrentURL",{}]
+1542914884769	Marionette	TRACE	0 <- [1,64,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914884771	Marionette	TRACE	0 -> [0,65,"WebDriver:GetCurrentURL",{}]
+1542914884771	Marionette	TRACE	0 <- [1,65,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914885776	Marionette	TRACE	0 -> [0,66,"WebDriver:GetPageSource",{}]
+1542914885807	Marionette	TRACE	0 <- [1,66,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... =1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\" gapi_processed=\"true\"></script></body></html>"}]
+1542914885835	Marionette	TRACE	0 -> [0,67,"WebDriver:GetCurrentURL",{}]
+1542914885836	Marionette	TRACE	0 <- [1,67,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914885839	Marionette	TRACE	0 -> [0,68,"WebDriver:GetPageSource",{}]
+1542914885853	Marionette	TRACE	0 <- [1,68,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... =1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\" gapi_processed=\"true\"></script></body></html>"}]
+1542914885916	Marionette	TRACE	0 -> [0,69,"WebDriver:GetCurrentURL",{}]
+1542914885917	Marionette	TRACE	0 <- [1,69,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914885919	Marionette	TRACE	0 -> [0,70,"WebDriver:GetCurrentURL",{}]
+1542914885920	Marionette	TRACE	0 <- [1,70,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914885922	Marionette	TRACE	0 -> [0,71,"WebDriver:GetCurrentURL",{}]
+1542914885922	Marionette	TRACE	0 <- [1,71,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914885924	Marionette	TRACE	0 -> [0,72,"WebDriver:GetCurrentURL",{}]
+1542914885925	Marionette	TRACE	0 <- [1,72,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914885926	Marionette	TRACE	0 -> [0,73,"WebDriver:GetCurrentURL",{}]
+1542914885926	Marionette	TRACE	0 <- [1,73,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914886429	Marionette	TRACE	0 -> [0,74,"WebDriver:GetCurrentURL",{}]
+1542914886430	Marionette	TRACE	0 <- [1,74,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914886937	Marionette	TRACE	0 -> [0,75,"WebDriver:GetCurrentURL",{}]
+1542914886938	Marionette	TRACE	0 <- [1,75,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914887443	Marionette	TRACE	0 -> [0,76,"WebDriver:GetCurrentURL",{}]
+1542914887445	Marionette	TRACE	0 <- [1,76,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914887950	Marionette	TRACE	0 -> [0,77,"WebDriver:GetCurrentURL",{}]
+1542914887951	Marionette	TRACE	0 <- [1,77,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914888455	Marionette	TRACE	0 -> [0,78,"WebDriver:GetCurrentURL",{}]
+1542914888456	Marionette	TRACE	0 <- [1,78,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914890627	Marionette	TRACE	0 -> [0,79,"WebDriver:GetCurrentURL",{}]
+1542914890628	Marionette	TRACE	0 <- [1,79,null,{"value":"https://www.stilltasty.com/fooditems/index/16887"}]
+1542914890632	Marionette	TRACE	0 -> [0,80,"WebDriver:GetCurrentURL",{}]
+1542914890633	Marionette	TRACE	0 <- [1,80,null,{"value":"https://www.stilltasty.com/fooditems/index/16887"}]
+1542914890636	Marionette	TRACE	0 -> [0,81,"WebDriver:GetCurrentURL",{}]
+1542914890636	Marionette	TRACE	0 <- [1,81,null,{"value":"https://www.stilltasty.com/fooditems/index/16887"}]
+1542914890639	Marionette	TRACE	0 -> [0,82,"WebDriver:GetCurrentURL",{}]
+1542914890639	Marionette	TRACE	0 <- [1,82,null,{"value":"https://www.stilltasty.com/fooditems/index/16887"}]
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.stilltasty.com/js/frontend/prebid.js, line 3: SyntaxError: expected expression, got ':'
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122999625-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122999625-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122999625-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122999625-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122999625-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-122999625-1, line 147: unreachable code after return statement
+1542914891657	Marionette	TRACE	0 -> [0,83,"WebDriver:GetPageSource",{}]
+1542914891662	Marionette	TRACE	0 <- [1,83,null,{"value":"<html lang=\"en\"><head>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t ... -adsystem.com/iu3?cm3ppd=1&amp;d=dtb-pub&amp;csif=t&amp;dl=rbd_ppt_comet_r1u_ox_dm_c1x_pm_an_dmx\"></iframe></body></html>"}]
+1542914891667	Marionette	TRACE	0 -> [0,84,"WebDriver:GetCurrentURL",{}]
+1542914891668	Marionette	TRACE	0 <- [1,84,null,{"value":"https://www.stilltasty.com/fooditems/index/16887"}]
+1542914891671	Marionette	TRACE	0 -> [0,85,"WebDriver:GetCurrentURL",{}]
+1542914891671	Marionette	TRACE	0 <- [1,85,null,{"value":"https://www.stilltasty.com/fooditems/index/16887"}]
+1542914891673	Marionette	TRACE	0 -> [0,86,"WebDriver:GetCurrentURL",{}]
+1542914891673	Marionette	TRACE	0 <- [1,86,null,{"value":"https://www.stilltasty.com/fooditems/index/16887"}]
+1542914891675	Marionette	TRACE	0 -> [0,87,"WebDriver:GetCurrentURL",{}]
+1542914891676	Marionette	TRACE	0 <- [1,87,null,{"value":"https://www.stilltasty.com/fooditems/index/16887"}]
+1542914891680	Marionette	TRACE	0 -> [0,88,"WebDriver:GetCurrentURL",{}]
+1542914891680	Marionette	TRACE	0 <- [1,88,null,{"value":"https://www.stilltasty.com/fooditems/index/16887"}]
+1542914891682	Marionette	TRACE	0 -> [0,89,"WebDriver:GetCurrentURL",{}]
+1542914891683	Marionette	TRACE	0 <- [1,89,null,{"value":"https://www.stilltasty.com/fooditems/index/16887"}]
+1542914892670	Marionette	TRACE	0 -> [0,90,"WebDriver:GetCurrentURL",{}]
+1542914892671	Marionette	TRACE	0 <- [1,90,null,{"value":"https://www.stilltasty.com/fooditems/index/16887"}]
+1542914895714	Marionette	TRACE	0 -> [0,91,"WebDriver:GetCurrentURL",{}]
+1542914895714	Marionette	TRACE	0 <- [1,91,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914895717	Marionette	TRACE	0 -> [0,92,"WebDriver:GetCurrentURL",{}]
+1542914895717	Marionette	TRACE	0 <- [1,92,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914895723	Marionette	TRACE	0 -> [0,93,"WebDriver:GetCurrentURL",{}]
+1542914895724	Marionette	TRACE	0 <- [1,93,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914895727	Marionette	TRACE	0 -> [0,94,"WebDriver:GetCurrentURL",{}]
+1542914895727	Marionette	TRACE	0 <- [1,94,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914896733	Marionette	TRACE	0 -> [0,95,"WebDriver:GetPageSource",{}]
+1542914896757	Marionette	TRACE	0 <- [1,95,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... =1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\" gapi_processed=\"true\"></script></body></html>"}]
+1542914896782	Marionette	TRACE	0 -> [0,96,"WebDriver:GetCurrentURL",{}]
+1542914896782	Marionette	TRACE	0 <- [1,96,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914896786	Marionette	TRACE	0 -> [0,97,"WebDriver:GetPageSource",{}]
+1542914896798	Marionette	TRACE	0 <- [1,97,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... =1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\" gapi_processed=\"true\"></script></body></html>"}]
+1542914896919	Marionette	TRACE	0 -> [0,98,"WebDriver:GetCurrentURL",{}]
+1542914896920	Marionette	TRACE	0 <- [1,98,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914896922	Marionette	TRACE	0 -> [0,99,"WebDriver:GetCurrentURL",{}]
+1542914896922	Marionette	TRACE	0 <- [1,99,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914896924	Marionette	TRACE	0 -> [0,100,"WebDriver:GetCurrentURL",{}]
+1542914896924	Marionette	TRACE	0 <- [1,100,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914896926	Marionette	TRACE	0 -> [0,101,"WebDriver:GetCurrentURL",{}]
+1542914896926	Marionette	TRACE	0 <- [1,101,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914896928	Marionette	TRACE	0 -> [0,102,"WebDriver:GetCurrentURL",{}]
+1542914896928	Marionette	TRACE	0 <- [1,102,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914897431	Marionette	TRACE	0 -> [0,103,"WebDriver:GetCurrentURL",{}]
+1542914897432	Marionette	TRACE	0 <- [1,103,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914897936	Marionette	TRACE	0 -> [0,104,"WebDriver:GetCurrentURL",{}]
+1542914897937	Marionette	TRACE	0 <- [1,104,null,{"value":"https://www.google.com/search?source=hp&ei=LwP3W4DGBsrMjwSCuo1o&q=does+cinnamon+expire&oq=does+cinn&gs_l=psy-ab.1.1.0l10.9963.11699..13791...0.0..0.71.563.9......0....1..gws-wiz.....0..0i131.9oNQXBwWzQQ"}]
+1542914898123	Marionette	DEBUG	[6442450945] Frame script loaded
+1542914898124	Marionette	DEBUG	[6442450945] Frame script registered
+1542914898150	Marionette	DEBUG	[6442450947] Frame script loaded
+1542914898150	Marionette	DEBUG	[6442450947] Frame script registered
+1542914898441	Marionette	TRACE	0 -> [0,105,"WebDriver:GetCurrentURL",{}]
+1542914898442	Marionette	TRACE	0 <- [1,105,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542914900446	Marionette	TRACE	0 -> [0,106,"WebDriver:GetCurrentURL",{}]
+1542914900446	Marionette	TRACE	0 <- [1,106,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542914900448	Marionette	TRACE	0 -> [0,107,"WebDriver:GetCurrentURL",{}]
+1542914900449	Marionette	TRACE	0 <- [1,107,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542914900451	Marionette	TRACE	0 -> [0,108,"WebDriver:GetCurrentURL",{}]
+1542914900451	Marionette	TRACE	0 <- [1,108,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542914906713	Marionette	TRACE	0 -> [0,109,"WebDriver:GetCurrentURL",{}]
+1542914906714	Marionette	TRACE	0 <- [1,109,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542914906719	Marionette	TRACE	0 -> [0,110,"WebDriver:GetCurrentURL",{}]
+1542914906721	Marionette	TRACE	0 <- [1,110,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542914906726	Marionette	TRACE	0 -> [0,111,"WebDriver:GetCurrentURL",{}]
+1542914906727	Marionette	TRACE	0 <- [1,111,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542914934876	Marionette	DEBUG	Closed connection 0
+[Parent 14450, Gecko_IOThread] WARNING: pipe error (127): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 14450, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1542914934966	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1542914934966	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1542914934966	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1542914934967	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1542914934967	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1542914934967	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1542914934967	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1542914934967	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1542914934968	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1542914934968	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1542914934968	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1542914934969	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1542914934969	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1542914934969	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1542914934969	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1542914934969	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1542914934969	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1542914934969	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1542914934970	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1542914934970	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1542914934970	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1542914934970	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1542914934970	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1542914934970	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1542914934970	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1542914934971	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1542914934971	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1542914934971	Marionette	INFO	Stopped listening on port 35299
+1542914934971	Marionette	DEBUG	Remote service is inactive
+1542915575100	geckodriver	INFO	geckodriver 0.21.0
+1542915575103	geckodriver	INFO	Listening on 127.0.0.1:37151
+1542915576113	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.weQofyqU0uM6"
+1542915576538	Marionette	DEBUG	Received observer notification profile-after-change
+1542915576619	Marionette	DEBUG	Received observer notification command-line-startup
+1542915576619	Marionette	DEBUG	Received observer notification nsPref:changed
+1542915576619	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+
+(firefox:15366): Gtk-WARNING **: 14:39:36.653: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15366): Gtk-WARNING **: 14:39:36.653: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542915576819	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1542915577523	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1542915577524	Marionette	DEBUG	Waiting for delayed startup...
+1542915577637	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1542915577637	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1542915577638	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1542915577638	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1542915577639	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1542915577639	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1542915577639	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1542915577640	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1542915577640	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1542915577641	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1542915577641	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1542915577641	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1542915577642	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1542915577642	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1542915577642	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1542915577642	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1542915577642	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1542915577643	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1542915577644	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1542915577644	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1542915577644	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1542915577644	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1542915577644	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1542915577644	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1542915577644	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1542915577645	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1542915577685	Marionette	INFO	Listening on port 42519
+1542915577685	Marionette	DEBUG	Remote service is active
+1542915577723	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:33774
+1542915577726	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1542915577727	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542915577782	Marionette	DEBUG	[4294967297] Frame script loaded
+1542915577783	Marionette	DEBUG	[4294967297] Frame script registered
+1542915577796	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"4b3a82ec-e404-4d6b-8089-fb14dcbfac89","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1542915577800	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.google.com"}]
+1542915577828	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1542915578106	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1542915578209	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.google.com/
+1542915579464	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1542915579567	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.google.com/
+1542915579568	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1542915579579	Marionette	TRACE	0 -> [0,3,"WebDriver:GetCurrentURL",{}]
+1542915579579	Marionette	TRACE	0 <- [1,3,null,{"value":"https://www.google.com/"}]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1542915620863	Marionette	TRACE	0 -> [0,4,"WebDriver:GetCurrentURL",{}]
+1542915620864	Marionette	TRACE	0 <- [1,4,null,{"value":"https://www.google.com/"}]
+1542915620868	Marionette	TRACE	0 -> [0,5,"WebDriver:GetCurrentURL",{}]
+1542915620869	Marionette	TRACE	0 <- [1,5,null,{"value":"https://www.google.com/"}]
+1542915620873	Marionette	TRACE	0 -> [0,6,"WebDriver:GetCurrentURL",{}]
+1542915620873	Marionette	TRACE	0 <- [1,6,null,{"value":"https://www.google.com/"}]
+1542915620876	Marionette	TRACE	0 -> [0,7,"WebDriver:GetCurrentURL",{}]
+1542915620877	Marionette	TRACE	0 <- [1,7,null,{"value":"https://www.google.com/"}]
+1542915621381	Marionette	TRACE	0 -> [0,8,"WebDriver:GetCurrentURL",{}]
+1542915621383	Marionette	TRACE	0 <- [1,8,null,{"value":"https://www.google.com/"}]
+1542915621892	Marionette	TRACE	0 -> [0,9,"WebDriver:GetCurrentURL",{}]
+1542915621894	Marionette	TRACE	0 <- [1,9,null,{"value":"https://www.google.com/"}]
+1542915622400	Marionette	TRACE	0 -> [0,10,"WebDriver:GetCurrentURL",{}]
+1542915622401	Marionette	TRACE	0 <- [1,10,null,{"value":"https://www.google.com/"}]
+1542915622906	Marionette	TRACE	0 -> [0,11,"WebDriver:GetCurrentURL",{}]
+1542915622908	Marionette	TRACE	0 <- [1,11,null,{"value":"https://www.google.com/"}]
+1542915623412	Marionette	TRACE	0 -> [0,12,"WebDriver:GetCurrentURL",{}]
+1542915623414	Marionette	TRACE	0 <- [1,12,null,{"value":"https://www.google.com/"}]
+1542915623917	Marionette	TRACE	0 -> [0,13,"WebDriver:GetCurrentURL",{}]
+1542915623918	Marionette	TRACE	0 <- [1,13,null,{"value":"https://www.google.com/"}]
+1542915624426	Marionette	TRACE	0 -> [0,14,"WebDriver:GetCurrentURL",{}]
+1542915624431	Marionette	TRACE	0 <- [1,14,null,{"value":"https://www.google.com/"}]
+1542915624935	Marionette	TRACE	0 -> [0,15,"WebDriver:GetCurrentURL",{}]
+1542915624936	Marionette	TRACE	0 <- [1,15,null,{"value":"https://www.google.com/"}]
+1542915625439	Marionette	TRACE	0 -> [0,16,"WebDriver:GetCurrentURL",{}]
+1542915625440	Marionette	TRACE	0 <- [1,16,null,{"value":"https://www.google.com/"}]
+1542915625945	Marionette	TRACE	0 -> [0,17,"WebDriver:GetCurrentURL",{}]
+1542915625945	Marionette	TRACE	0 <- [1,17,null,{"value":"https://www.google.com/"}]
+1542915626449	Marionette	TRACE	0 -> [0,18,"WebDriver:GetCurrentURL",{}]
+1542915626451	Marionette	TRACE	0 <- [1,18,null,{"value":"https://www.google.com/"}]
+1542915626956	Marionette	TRACE	0 -> [0,19,"WebDriver:GetCurrentURL",{}]
+1542915626957	Marionette	TRACE	0 <- [1,19,null,{"value":"https://www.google.com/"}]
+1542915627474	Marionette	TRACE	0 -> [0,20,"WebDriver:GetCurrentURL",{}]
+1542915627476	Marionette	TRACE	0 <- [1,20,null,{"value":"https://www.google.com/search?source=hp&ei=-QX3W4G9OoXEjwSZ1avADw&q=does+cinnamon+have+sugar+in+it&btnK= ... rch&oq=does+cinna&gs_l=psy-ab.3.0.0l10.46026.47128..48162...0.0..0.61.543.10......0....1..gws-wiz.....0..0i131.97tybwyPe88"}]
+1542915628483	Marionette	TRACE	0 -> [0,21,"WebDriver:GetPageSource",{}]
+1542915628516	Marionette	TRACE	0 <- [1,21,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... ,TxZWcc,r36a9c,xj7LNb/ed=1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\"></script></body></html>"}]
+1542915628546	Marionette	TRACE	0 -> [0,22,"WebDriver:GetCurrentURL",{}]
+1542915628546	Marionette	TRACE	0 <- [1,22,null,{"value":"https://www.google.com/search?source=hp&ei=-QX3W4G9OoXEjwSZ1avADw&q=does+cinnamon+have+sugar+in+it&btnK= ... rch&oq=does+cinna&gs_l=psy-ab.3.0.0l10.46026.47128..48162...0.0..0.61.543.10......0....1..gws-wiz.....0..0i131.97tybwyPe88"}]
+1542915628550	Marionette	TRACE	0 -> [0,23,"WebDriver:GetPageSource",{}]
+1542915628563	Marionette	TRACE	0 <- [1,23,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... ,TxZWcc,r36a9c,xj7LNb/ed=1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\"></script></body></html>"}]
+1542915638946	Marionette	DEBUG	[6442450945] Frame script loaded
+1542915638947	Marionette	DEBUG	[6442450945] Frame script registered
+1542915638969	Marionette	DEBUG	[6442450947] Frame script loaded
+1542915638970	Marionette	DEBUG	[6442450947] Frame script registered
+1542915811468	geckodriver	INFO	geckodriver 0.21.0
+1542915811485	geckodriver	INFO	Listening on 127.0.0.1:50833
+1542915812486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ektqwUyks6zI"
+1542915812905	Marionette	DEBUG	Received observer notification profile-after-change
+1542915813004	Marionette	DEBUG	Received observer notification command-line-startup
+1542915813004	Marionette	DEBUG	Received observer notification nsPref:changed
+1542915813004	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+
+(firefox:15948): Gtk-WARNING **: 14:43:33.036: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15948): Gtk-WARNING **: 14:43:33.036: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542915813211	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1542915813867	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1542915813867	Marionette	DEBUG	Waiting for delayed startup...
+1542915813977	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1542915813978	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1542915813978	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1542915813978	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1542915813979	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1542915813979	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1542915813979	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1542915813980	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1542915813980	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1542915813981	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1542915813981	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1542915813981	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1542915813982	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1542915813982	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1542915813982	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1542915813982	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1542915813982	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1542915813982	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1542915813983	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1542915813983	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1542915813983	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1542915813983	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1542915813984	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1542915813984	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1542915813984	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1542915813984	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1542915814019	Marionette	INFO	Listening on port 45731
+1542915814019	Marionette	DEBUG	Remote service is active
+1542915814100	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:60824
+1542915814109	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1542915814110	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542915814150	Marionette	DEBUG	[4294967297] Frame script loaded
+1542915814153	Marionette	DEBUG	[4294967297] Frame script registered
+1542915814158	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"967bffd1-1d1e-47e1-9094-3f7c0f54ae5b","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1542915814161	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.google.com"}]
+1542915814194	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1542915814477	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1542915814571	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.google.com/
+1542915814871	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1542915815041	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.google.com/
+1542915815043	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1542915815051	Marionette	TRACE	0 -> [0,3,"WebDriver:GetCurrentURL",{}]
+1542915815053	Marionette	TRACE	0 <- [1,3,null,{"value":"https://www.google.com/"}]
+1542915815056	Marionette	TRACE	0 -> [0,4,"WebDriver:GetCurrentURL",{}]
+1542915815057	Marionette	TRACE	0 <- [1,4,null,{"value":"https://www.google.com/"}]
+1542915815058	Marionette	TRACE	0 -> [0,5,"WebDriver:GetCurrentURL",{}]
+1542915815059	Marionette	TRACE	0 <- [1,5,null,{"value":"https://www.google.com/"}]
+1542915815071	Marionette	TRACE	0 -> [0,6,"WebDriver:GetCurrentURL",{}]
+1542915815072	Marionette	TRACE	0 <- [1,6,null,{"value":"https://www.google.com/"}]
+1542915815075	Marionette	TRACE	0 -> [0,7,"WebDriver:GetCurrentURL",{}]
+1542915815075	Marionette	TRACE	0 <- [1,7,null,{"value":"https://www.google.com/"}]
+1542915815078	Marionette	TRACE	0 -> [0,8,"WebDriver:GetCurrentURL",{}]
+1542915815079	Marionette	TRACE	0 <- [1,8,null,{"value":"https://www.google.com/"}]
+1542915815582	Marionette	TRACE	0 -> [0,9,"WebDriver:GetCurrentURL",{}]
+1542915815584	Marionette	TRACE	0 <- [1,9,null,{"value":"https://www.google.com/"}]
+1542915816089	Marionette	TRACE	0 -> [0,10,"WebDriver:GetCurrentURL",{}]
+1542915816091	Marionette	TRACE	0 <- [1,10,null,{"value":"https://www.google.com/"}]
+1542915816600	Marionette	TRACE	0 -> [0,11,"WebDriver:GetCurrentURL",{}]
+1542915816603	Marionette	TRACE	0 <- [1,11,null,{"value":"https://www.google.com/"}]
+1542915817108	Marionette	TRACE	0 -> [0,12,"WebDriver:GetCurrentURL",{}]
+1542915817110	Marionette	TRACE	0 <- [1,12,null,{"value":"https://www.google.com/"}]
+1542915817615	Marionette	TRACE	0 -> [0,13,"WebDriver:GetCurrentURL",{}]
+1542915817617	Marionette	TRACE	0 <- [1,13,null,{"value":"https://www.google.com/"}]
+1542915818122	Marionette	TRACE	0 -> [0,14,"WebDriver:GetCurrentURL",{}]
+1542915818123	Marionette	TRACE	0 <- [1,14,null,{"value":"https://www.google.com/"}]
+1542915818627	Marionette	TRACE	0 -> [0,15,"WebDriver:GetCurrentURL",{}]
+1542915818627	Marionette	TRACE	0 <- [1,15,null,{"value":"https://www.google.com/"}]
+1542915819130	Marionette	TRACE	0 -> [0,16,"WebDriver:GetCurrentURL",{}]
+1542915819131	Marionette	TRACE	0 <- [1,16,null,{"value":"https://www.google.com/"}]
+1542915819635	Marionette	TRACE	0 -> [0,17,"WebDriver:GetCurrentURL",{}]
+1542915819636	Marionette	TRACE	0 <- [1,17,null,{"value":"https://www.google.com/"}]
+1542915820142	Marionette	TRACE	0 -> [0,18,"WebDriver:GetCurrentURL",{}]
+1542915820143	Marionette	TRACE	0 <- [1,18,null,{"value":"https://www.google.com/"}]
+1542915820657	Marionette	TRACE	0 -> [0,19,"WebDriver:GetCurrentURL",{}]
+1542915820657	Marionette	TRACE	0 <- [1,19,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915821664	Marionette	TRACE	0 -> [0,20,"WebDriver:GetPageSource",{}]
+1542915821694	Marionette	TRACE	0 <- [1,20,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... =1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\" gapi_processed=\"true\"></script></body></html>"}]
+1542915821719	Marionette	TRACE	0 -> [0,21,"WebDriver:GetCurrentURL",{}]
+1542915821721	Marionette	TRACE	0 <- [1,21,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915821724	Marionette	TRACE	0 -> [0,22,"WebDriver:GetPageSource",{}]
+1542915821735	Marionette	TRACE	0 <- [1,22,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... =1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\" gapi_processed=\"true\"></script></body></html>"}]
+1542915821851	Marionette	TRACE	0 -> [0,23,"WebDriver:GetCurrentURL",{}]
+1542915821852	Marionette	TRACE	0 <- [1,23,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915821854	Marionette	TRACE	0 -> [0,24,"WebDriver:GetCurrentURL",{}]
+1542915821854	Marionette	TRACE	0 <- [1,24,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915821857	Marionette	TRACE	0 -> [0,25,"WebDriver:GetCurrentURL",{}]
+1542915821858	Marionette	TRACE	0 <- [1,25,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915821860	Marionette	TRACE	0 -> [0,26,"WebDriver:GetCurrentURL",{}]
+1542915821860	Marionette	TRACE	0 <- [1,26,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915821861	Marionette	TRACE	0 -> [0,27,"WebDriver:GetCurrentURL",{}]
+1542915821862	Marionette	TRACE	0 <- [1,27,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915822370	Marionette	TRACE	0 -> [0,28,"WebDriver:GetCurrentURL",{}]
+1542915822370	Marionette	TRACE	0 <- [1,28,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915822875	Marionette	TRACE	0 -> [0,29,"WebDriver:GetCurrentURL",{}]
+1542915822876	Marionette	TRACE	0 <- [1,29,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915823382	Marionette	TRACE	0 -> [0,30,"WebDriver:GetCurrentURL",{}]
+1542915823383	Marionette	TRACE	0 <- [1,30,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915823887	Marionette	TRACE	0 -> [0,31,"WebDriver:GetCurrentURL",{}]
+1542915823888	Marionette	TRACE	0 <- [1,31,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915824392	Marionette	TRACE	0 -> [0,32,"WebDriver:GetCurrentURL",{}]
+1542915824393	Marionette	TRACE	0 <- [1,32,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915824896	Marionette	TRACE	0 -> [0,33,"WebDriver:GetCurrentURL",{}]
+1542915824898	Marionette	TRACE	0 <- [1,33,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915828319	Marionette	TRACE	0 -> [0,34,"WebDriver:GetCurrentURL",{}]
+1542915828320	Marionette	TRACE	0 <- [1,34,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915830360	Marionette	TRACE	0 -> [0,35,"WebDriver:GetCurrentURL",{}]
+1542915830361	Marionette	TRACE	0 <- [1,35,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915830380	Marionette	TRACE	0 -> [0,36,"WebDriver:GetCurrentURL",{}]
+1542915830381	Marionette	TRACE	0 <- [1,36,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915830389	Marionette	TRACE	0 -> [0,37,"WebDriver:GetCurrentURL",{}]
+1542915830390	Marionette	TRACE	0 <- [1,37,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915835383	Marionette	TRACE	0 -> [0,38,"WebDriver:GetPageSource",{}]
+1542915835396	Marionette	TRACE	0 <- [1,38,null,{"value":"<html lang=\"en\"><head>\n<link rel=\"preload\" href=\"https://d3otfkap419ijo.cloudfront.net/_next/b89bb ... ); \n</script><div id=\"ttdUniversalPixelTag51ccab2edb4c422cafb39040632e9228\" style=\"display:none\"></div></body></html>"}]
+1542915835408	Marionette	TRACE	0 -> [0,39,"WebDriver:GetCurrentURL",{}]
+1542915835409	Marionette	TRACE	0 <- [1,39,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915835412	Marionette	TRACE	0 -> [0,40,"WebDriver:GetCurrentURL",{}]
+1542915835413	Marionette	TRACE	0 <- [1,40,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915835415	Marionette	TRACE	0 -> [0,41,"WebDriver:GetCurrentURL",{}]
+1542915835416	Marionette	TRACE	0 <- [1,41,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915835418	Marionette	TRACE	0 -> [0,42,"WebDriver:GetCurrentURL",{}]
+1542915835419	Marionette	TRACE	0 <- [1,42,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915835423	Marionette	TRACE	0 -> [0,43,"WebDriver:GetCurrentURL",{}]
+1542915835424	Marionette	TRACE	0 <- [1,43,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915835427	Marionette	TRACE	0 -> [0,44,"WebDriver:GetCurrentURL",{}]
+1542915835427	Marionette	TRACE	0 <- [1,44,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915835430	Marionette	TRACE	0 -> [0,45,"WebDriver:GetCurrentURL",{}]
+1542915835430	Marionette	TRACE	0 <- [1,45,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915835432	Marionette	TRACE	0 -> [0,46,"WebDriver:GetCurrentURL",{}]
+1542915835432	Marionette	TRACE	0 <- [1,46,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915835935	Marionette	TRACE	0 -> [0,47,"WebDriver:GetCurrentURL",{}]
+1542915835935	Marionette	TRACE	0 <- [1,47,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+JavaScript warning: https://www.google-analytics.com/gtm/js?id=GTM-TW56TBM&t=gtm16&cid=1931161232.1542915836, line 91: unreachable code after return statement
+1542915836440	Marionette	TRACE	0 -> [0,48,"WebDriver:GetCurrentURL",{}]
+1542915836442	Marionette	TRACE	0 <- [1,48,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915837558	Marionette	TRACE	0 -> [0,49,"WebDriver:GetCurrentURL",{}]
+1542915837559	Marionette	TRACE	0 <- [1,49,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915838676	Marionette	TRACE	0 -> [0,50,"WebDriver:GetCurrentURL",{}]
+1542915838676	Marionette	TRACE	0 <- [1,50,null,{"value":"https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon"}]
+1542915839861	Marionette	TRACE	0 -> [0,51,"WebDriver:GetCurrentURL",{}]
+1542915839862	Marionette	TRACE	0 <- [1,51,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915839864	Marionette	TRACE	0 -> [0,52,"WebDriver:GetCurrentURL",{}]
+1542915839864	Marionette	TRACE	0 <- [1,52,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915839867	Marionette	TRACE	0 -> [0,53,"WebDriver:GetCurrentURL",{}]
+1542915839867	Marionette	TRACE	0 <- [1,53,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915839870	Marionette	TRACE	0 -> [0,54,"WebDriver:GetCurrentURL",{}]
+1542915839871	Marionette	TRACE	0 <- [1,54,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915840876	Marionette	TRACE	0 -> [0,55,"WebDriver:GetPageSource",{}]
+1542915840910	Marionette	TRACE	0 <- [1,55,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... =1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\" gapi_processed=\"true\"></script></body></html>"}]
+1542915840939	Marionette	TRACE	0 -> [0,56,"WebDriver:GetCurrentURL",{}]
+1542915840939	Marionette	TRACE	0 <- [1,56,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915840942	Marionette	TRACE	0 -> [0,57,"WebDriver:GetPageSource",{}]
+1542915840952	Marionette	TRACE	0 <- [1,57,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... =1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\" gapi_processed=\"true\"></script></body></html>"}]
+1542915841058	Marionette	TRACE	0 -> [0,58,"WebDriver:GetCurrentURL",{}]
+1542915841059	Marionette	TRACE	0 <- [1,58,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915841061	Marionette	TRACE	0 -> [0,59,"WebDriver:GetCurrentURL",{}]
+1542915841061	Marionette	TRACE	0 <- [1,59,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915841063	Marionette	TRACE	0 -> [0,60,"WebDriver:GetCurrentURL",{}]
+1542915841063	Marionette	TRACE	0 <- [1,60,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915841064	Marionette	TRACE	0 -> [0,61,"WebDriver:GetCurrentURL",{}]
+1542915841065	Marionette	TRACE	0 <- [1,61,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915841066	Marionette	TRACE	0 -> [0,62,"WebDriver:GetCurrentURL",{}]
+1542915841066	Marionette	TRACE	0 <- [1,62,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915841569	Marionette	TRACE	0 -> [0,63,"WebDriver:GetCurrentURL",{}]
+1542915841570	Marionette	TRACE	0 <- [1,63,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915842074	Marionette	TRACE	0 -> [0,64,"WebDriver:GetCurrentURL",{}]
+1542915842075	Marionette	TRACE	0 <- [1,64,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915842578	Marionette	TRACE	0 -> [0,65,"WebDriver:GetCurrentURL",{}]
+1542915842579	Marionette	TRACE	0 <- [1,65,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915843082	Marionette	TRACE	0 -> [0,66,"WebDriver:GetCurrentURL",{}]
+1542915843083	Marionette	TRACE	0 <- [1,66,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915843586	Marionette	TRACE	0 -> [0,67,"WebDriver:GetCurrentURL",{}]
+1542915843586	Marionette	TRACE	0 <- [1,67,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915844090	Marionette	TRACE	0 -> [0,68,"WebDriver:GetCurrentURL",{}]
+1542915844091	Marionette	TRACE	0 <- [1,68,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915844595	Marionette	TRACE	0 -> [0,69,"WebDriver:GetCurrentURL",{}]
+1542915844597	Marionette	TRACE	0 <- [1,69,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915845101	Marionette	TRACE	0 -> [0,70,"WebDriver:GetCurrentURL",{}]
+1542915845103	Marionette	TRACE	0 <- [1,70,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915845106	Marionette	TRACE	0 -> [0,71,"WebDriver:GetCurrentURL",{}]
+1542915845107	Marionette	TRACE	0 <- [1,71,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915845112	Marionette	TRACE	0 -> [0,72,"WebDriver:GetCurrentURL",{}]
+1542915845113	Marionette	TRACE	0 <- [1,72,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915845119	Marionette	TRACE	0 -> [0,73,"WebDriver:GetCurrentURL",{}]
+1542915845120	Marionette	TRACE	0 <- [1,73,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915846129	Marionette	TRACE	0 -> [0,74,"WebDriver:GetPageSource",{}]
+1542915846134	Marionette	TRACE	0 <- [1,74,null,{"value":"<html class=\"avada-html-layout-wide\" prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# og: http: ... ascript\" src=\"https://badgut-5q10xayth7t3zjokbv.netdna-ssl.com/wp-includes/js/jquery/jquery.js\"></script></head></html>"}]
+1542915846140	Marionette	TRACE	0 -> [0,75,"WebDriver:GetCurrentURL",{}]
+1542915846141	Marionette	TRACE	0 <- [1,75,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915846146	Marionette	TRACE	0 -> [0,76,"WebDriver:GetCurrentURL",{}]
+1542915846146	Marionette	TRACE	0 <- [1,76,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915846148	Marionette	TRACE	0 -> [0,77,"WebDriver:GetCurrentURL",{}]
+1542915846149	Marionette	TRACE	0 <- [1,77,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915846151	Marionette	TRACE	0 -> [0,78,"WebDriver:GetCurrentURL",{}]
+1542915846151	Marionette	TRACE	0 <- [1,78,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915846153	Marionette	TRACE	0 -> [0,79,"WebDriver:GetCurrentURL",{}]
+1542915846154	Marionette	TRACE	0 <- [1,79,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915846155	Marionette	TRACE	0 -> [0,80,"WebDriver:GetCurrentURL",{}]
+1542915846156	Marionette	TRACE	0 <- [1,80,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915846158	Marionette	TRACE	0 -> [0,81,"WebDriver:GetCurrentURL",{}]
+1542915846159	Marionette	TRACE	0 <- [1,81,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915846160	Marionette	TRACE	0 -> [0,82,"WebDriver:GetCurrentURL",{}]
+1542915846161	Marionette	TRACE	0 <- [1,82,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915846663	Marionette	TRACE	0 -> [0,83,"WebDriver:GetCurrentURL",{}]
+1542915846663	Marionette	TRACE	0 <- [1,83,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915847165	Marionette	TRACE	0 -> [0,84,"WebDriver:GetCurrentURL",{}]
+1542915847165	Marionette	TRACE	0 <- [1,84,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915847669	Marionette	TRACE	0 -> [0,85,"WebDriver:GetCurrentURL",{}]
+1542915847670	Marionette	TRACE	0 <- [1,85,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915848175	Marionette	TRACE	0 -> [0,86,"WebDriver:GetCurrentURL",{}]
+1542915848176	Marionette	TRACE	0 <- [1,86,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915848681	Marionette	TRACE	0 -> [0,87,"WebDriver:GetCurrentURL",{}]
+1542915848682	Marionette	TRACE	0 <- [1,87,null,{"value":"https://www.badgut.org/information-centre/health-nutrition/cinnamon/"}]
+1542915849186	Marionette	TRACE	0 -> [0,88,"WebDriver:GetCurrentURL",{}]
+1542915849187	Marionette	TRACE	0 <- [1,88,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915849189	Marionette	TRACE	0 -> [0,89,"WebDriver:GetCurrentURL",{}]
+1542915849189	Marionette	TRACE	0 <- [1,89,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915849192	Marionette	TRACE	0 -> [0,90,"WebDriver:GetCurrentURL",{}]
+1542915849192	Marionette	TRACE	0 <- [1,90,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915849194	Marionette	TRACE	0 -> [0,91,"WebDriver:GetCurrentURL",{}]
+1542915849195	Marionette	TRACE	0 <- [1,91,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915850199	Marionette	TRACE	0 -> [0,92,"WebDriver:GetPageSource",{}]
+1542915850228	Marionette	TRACE	0 <- [1,92,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... =1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\" gapi_processed=\"true\"></script></body></html>"}]
+1542915850257	Marionette	TRACE	0 -> [0,93,"WebDriver:GetCurrentURL",{}]
+1542915850258	Marionette	TRACE	0 <- [1,93,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915850260	Marionette	TRACE	0 -> [0,94,"WebDriver:GetPageSource",{}]
+1542915850271	Marionette	TRACE	0 <- [1,94,null,{"value":"<html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"en-CA\"><head><meta content ... =1/dg=2/rs=ACT90oEbz24s1XrADEBIFH5u_YHdWkl2rQ/m=Uuupec?xjs=s2\" async=\"\" gapi_processed=\"true\"></script></body></html>"}]
+1542915850327	Marionette	TRACE	0 -> [0,95,"WebDriver:GetCurrentURL",{}]
+1542915850328	Marionette	TRACE	0 <- [1,95,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915850329	Marionette	TRACE	0 -> [0,96,"WebDriver:GetCurrentURL",{}]
+1542915850329	Marionette	TRACE	0 <- [1,96,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915850331	Marionette	TRACE	0 -> [0,97,"WebDriver:GetCurrentURL",{}]
+1542915850331	Marionette	TRACE	0 <- [1,97,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915850333	Marionette	TRACE	0 -> [0,98,"WebDriver:GetCurrentURL",{}]
+1542915850333	Marionette	TRACE	0 <- [1,98,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915850335	Marionette	TRACE	0 -> [0,99,"WebDriver:GetCurrentURL",{}]
+1542915850335	Marionette	TRACE	0 <- [1,99,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK= ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915850838	Marionette	TRACE	0 -> [0,100,"WebDriver:GetCurrentURL",{}]
+1542915850839	Marionette	TRACE	0 <- [1,100,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915851344	Marionette	TRACE	0 -> [0,101,"WebDriver:GetCurrentURL",{}]
+1542915851345	Marionette	TRACE	0 <- [1,101,null,{"value":"https://www.google.com/search?source=hp&ei=5gb3W9K4FaW3jwTP3IrQDg&q=does+cinnamon+have+sugar+in+it&btnK ... Search&oq=does+cinna&gs_l=psy-ab.3.0.0l10.2599.4967..5781...0.0..0.63.590.10......0....1..gws-wiz.....0..0i131.aK6QvDGfGkA"}]
+1542915851701	Marionette	DEBUG	[6442450945] Frame script loaded
+1542915851702	Marionette	DEBUG	[6442450945] Frame script registered
+1542915851724	Marionette	DEBUG	[6442450947] Frame script loaded
+1542915851725	Marionette	DEBUG	[6442450947] Frame script registered
+1542915851848	Marionette	TRACE	0 -> [0,102,"WebDriver:GetCurrentURL",{}]
+1542915851849	Marionette	TRACE	0 <- [1,102,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542915853853	Marionette	TRACE	0 -> [0,103,"WebDriver:GetCurrentURL",{}]
+1542915853855	Marionette	TRACE	0 <- [1,103,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542915853861	Marionette	TRACE	0 -> [0,104,"WebDriver:GetCurrentURL",{}]
+1542915853864	Marionette	TRACE	0 <- [1,104,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542915853869	Marionette	TRACE	0 -> [0,105,"WebDriver:GetCurrentURL",{}]
+1542915853870	Marionette	TRACE	0 <- [1,105,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542915853875	Marionette	TRACE	0 -> [0,106,"WebDriver:GetCurrentURL",{}]
+1542915853875	Marionette	TRACE	0 <- [1,106,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542915853880	Marionette	TRACE	0 -> [0,107,"WebDriver:GetCurrentURL",{}]
+1542915853881	Marionette	TRACE	0 <- [1,107,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1542915853884	Marionette	TRACE	0 -> [0,108,"WebDriver:GetCurrentURL",{}]
+1542915853884	Marionette	TRACE	0 <- [1,108,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
