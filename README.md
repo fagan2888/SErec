@@ -17,3 +17,4 @@ A python3 app for recording actions while using search engine.
   - Don't click on people also ask if it shows up.
   - Don't click on the second or other pages.
   - Change your query if the site is not in the Search Engine Result Page.
+4. After you are finished, close the browser.
