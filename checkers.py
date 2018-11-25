@@ -8,6 +8,7 @@ from time import sleep
 from http.client import RemoteDisconnected
 from selenium.common.exceptions import *
 from main import *
+from datetime import datetime
 
 def check_browser_open(browser):
     try:
@@ -19,14 +20,39 @@ def check_browser_open(browser):
     socket.error):
         return(False)
 
-outputName = ''
-def output_namer():
-    global outputName
-    outputName = str(input('Enter a name for the save file\n> '))
+main_query   = ''
+prior_answer = ''
+post_answer  = ''
 
+def output_namer():
+    global main_query
+    dt = datetime.now().isoformat()
+    outputName = main_query + dt
+    outputName = str(outputName.__hash__())
+    outputName = '_'.join(main_query.split()[:3]) + outputName + '.json'
+    print(outputName)
+    return(outputName)
+
+
+choices = '1. Strongly disagree\n2. Disagree\n3. Indifferent/Not sure\n4. Agree\n5. Strongly Agree\n> '
+
+def prior_questionaire():
+    global main_query
+    global prior_answer
+    main_query   = input('Enter the given query:\n> ')
+    prior_answer = input('How much do you agree (Choose between 1-5):\n\n{}\n\n{}'.format(main_query,choices))
+    return(main_query,prior_answer)
+
+def post_questionaire():
+    global main_query
+    post_answer = input('How much do you agree (Choose between 1-5):\n\n{}\n\n{}'.format(main_query,choices))
+    return(post_answer)
 
 def session_saver(observer):
-    with open(outputName, 'a') as fh:
+    answer = post_questionaire()
+    observer['metadata']['post_answer'] = answer
+    outputName = output_namer()
+    with open(outputName, 'w') as fh:
         json.dump(observer,fh)
 
 def is_open(browser):
@@ -42,7 +68,7 @@ def waiter(browser,observer):
     print(browserIsOpen)
     try:
         if browserIsOpen==True:
-            n=10
+            n=30
             WebDriverWait(browser, n*60).until(EC.url_changes(browser.current_url))
         else:
             print('LOG: Browser is closed, saving the file')
@@ -122,7 +148,7 @@ def url_cleaner(urls,urls_cl):
     #
     if(len(urls) == len(urls_cl)):
         ind = [urls.index(url) for url in urls if not url.startswith('http') or \
-        url.endswith('...') or ' ' in url]
+        '...' in url or ' ' in url]
         for i in ind:
             urls[i] = urls_cl[i]
     else:

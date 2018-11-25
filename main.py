@@ -8,8 +8,9 @@ import socket
 
 # Code
 
-## Enter output file name
-output_namer()
+## Prior judgement
+q,a = prior_questionaire()
+
 
 # Open browser and type google.com
 browser = webdriver.Firefox()
@@ -19,7 +20,7 @@ browserIsOpen = True
 
 choice    = 0
 querynum  = 0
-observer  = {}
+observer  = {'metadata':{'main_query':q, 'prior_answer':a}}
 cur_query = ''
 
 # call waiter
