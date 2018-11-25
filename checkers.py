@@ -7,7 +7,7 @@ import socket, re, json
 from time import sleep
 from http.client import RemoteDisconnected
 from selenium.common.exceptions import *
-from main import *
+# from main import *
 from datetime import datetime
 
 def check_browser_open(browser):
@@ -88,8 +88,11 @@ def check_if_google(browser):
         url     = browser.current_url
         check       = url.startswith('https://www.google') or (srctree.xpath('//div[@id="searchform"]') and srctree.xpath('//img[@alt="Google"]'))
         checkSERP   = srctree.xpath('//div[@id="search"]')
+        checkNext   = srctree.xpath('//div[@id="resultStats"]//text()')
+        checkNext   = re.findall('Page\s([0-9]+)\sof.*',' '.join(checkNext))
         if checkSERP:
-            isgoogle = 'serp'
+            isgoogle = 'serp' + ''.join(checkNext)
+            print(isgoogle)
         elif check:
             isgoogle = 'google'
         else:

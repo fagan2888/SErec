@@ -20,8 +20,10 @@ browserIsOpen = True
 
 choice    = 0
 querynum  = 0
+pagenum   = 1
 observer  = {'metadata':{'main_query':q, 'prior_answer':a}}
 cur_query = ''
+cur_serp  = ''
 
 # call waiter
 waiter(browser,observer) # passed initial test
@@ -35,19 +37,33 @@ waiter(browser,observer) # passed initial test
 
 while browserIsOpen:
     is_google = check_if_google(browser) # fails at first attempt
-    if is_google == 'serp':
+    if 'serp' in is_google:
         print('LOG: It is a SERP')
         serp = serp_scraper(browser)
         serp_logger(serp)
         print('\n')
-        if serp['query'] == cur_query:
+        if serp['query'] == cur_query and is_google == cur_serp:
             print('LOG: Returned back to the same query, waiting')
+            waiter(browser,observer)
+        elif serp['query'] == cur_query:
+            try:
+                pagenum = int(is_google.replace('serp',''))
+            except:
+                print('LOG [__pagenum to integer__]: Couldn\'t convert page number')
+                pagenum = int(is_google.replace('serp',''))
+            choice  = 0
+            print('LOG: Clicked Page {}'.format(pagenum))
+            cur_serp = is_google
+            observer[querynum][pagenum] = serp
             waiter(browser,observer)
         else:
             querynum += 1
             choice    = 0
+            pagenum   = 1
             cur_query = serp['query']
-            observer[querynum] = serp
+            cur_serp  = is_google
+            observer[querynum] = {}
+            observer[querynum][pagenum] = serp
             print('LOG: A new query, scraped, waiting')
             waiter(browser,observer)
     elif is_google == 'google':
@@ -59,11 +75,11 @@ while browserIsOpen:
         ### If a click, scrape the html and url and increase choice
         ### match the url in SERP -> rank \in {top, rhs, 'rrs'+rrsRank}
         ### clickres = {'rank': rank, 'url':url, 'page':html}
-        ### append observer[querynum][choice] = clickres
+        ### append observer[querynum][choice][pagenum] = clickres
         choice += 1
-        rank = match_url(browser.current_url,observer[querynum])
+        rank = match_url(browser.current_url,observer[querynum][pagenum])
         clickres = {'rank': rank, 'url':browser.current_url, 'page':''}
-        observer[querynum][choice] = clickres
+        observer[querynum][pagenum][choice] = clickres
         choice_logger(choice)
         print('LOG: clickres rank:', clickres['rank'])
         print('LOG: clickres url:', clickres['url'])
